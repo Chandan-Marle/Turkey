@@ -22,6 +22,7 @@ function reset() {
         document.body.innerHTML = '';
         document.write("<body onkeypress='reset()'></body>");
         document.write(originalTurkey);
+        k = 1;
     }    
 }
 
